@@ -1,0 +1,61 @@
+#main {
+    background-color:rgba(230, 230, 230)
+}
+
+#title{
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    padding: 4px 4px;
+}
+.sub-heading {
+    text-align: center;
+}
+.container {
+    margin: 4px 16px;
+}
+
+.intro p {
+    text-align: center;
+}
+#img-caption{
+    text-align: center;
+}
+#img-div{
+    max-width: 1000px;
+    margin: auto;
+    background-color: white; 
+    padding-top: 16px;
+}
+#image{
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+.movies-list {
+    margin: 16px auto;
+    max-width: 600px;
+}
+
+.movies-list ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 16px 16px;
+}
+@media screen and (max-width: 800px) {
+    .movies-list ul{
+        grid-template-columns: auto;
+    }
+}
+.movies-list ul li {
+    padding: 2px 8px;
+    list-style-position: inside;
+}
+
+.youtube-link {
+    text-align: center;
+    padding-bottom: 16px;
+}
