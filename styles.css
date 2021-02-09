@@ -23,6 +23,8 @@ p {
 }
 #img-caption{
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 16px;
 }
 #img-div{
     max-width: 1000px;
